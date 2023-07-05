@@ -1,0 +1,9 @@
+day,month,year,category,name,expense,remarks
+1,12,2022,Sainsbury,Peter,10,
+5,12,2022,Sainsbury,Raymond,20,
+,12,2022,Electricity,Raymond,50,
+,12,2022,Council tax,Raymond,100,
+12,12,2022,Tesco,Alice,15,
+,12,2022,Broadband,Peter,25,
+18,12,2022,Dinner,Alice,100,
+24,12,2022,Sainsbury,Peter,30,

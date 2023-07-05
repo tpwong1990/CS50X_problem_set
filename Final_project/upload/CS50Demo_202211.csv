@@ -1,0 +1,9 @@
+day,month,year,category,name,expense,remarks
+2,11,2022,Sainsbury,Alice,20,
+9,11,2022,Sainsbury,Raymond,40,
+,11,2022,Electricity,Raymond,38,
+,11,2022,Council tax,Raymond,100,
+14,11,2022,Lidl,Alice,30,
+,12,2022,Broadband,Peter,25,
+17,12,2022,Ikea,Alice,150,
+22,12,2022,Sainsbury,Raymond,50,

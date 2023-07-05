@@ -1,0 +1,78 @@
+body {
+    background-color: #000000;
+    color: #FCF900;
+}
+
+.header {
+    color: #FCF900;
+    text-align: center;
+}
+
+.hyper_link_button {
+    position: relative;
+}
+
+.email{
+    text-align: center;
+ }
+
+.center_button {
+    display: flex;
+    justify-content: center;
+}
+.center_button_hobby {
+    display: flex;
+    justify-content: center;
+}
+.center_button_hobby2 {
+    display: flex;
+    justify-content: center;
+}
+.center_button_hobby3 {
+    display: flex;
+    justify-content: center;
+}
+.Nu_Gundam {
+    color: #FCF900;
+    text-align: center;
+}
+.Exia {
+    color: #FCF900;
+    text-align: center;
+}
+.nu_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.nu_image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.exia_image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.exia_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.Astro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+figure {
+    text-align: center;
+}
+
+iframe {
+    width: 75%;
+    height: 75%;
+}

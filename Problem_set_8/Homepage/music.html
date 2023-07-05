@@ -1,0 +1,34 @@
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>My favourite music</title>
+    </head>
+    <body>
+        <h1 class = 'header'>My favourite music</h1>
+        <br>
+        <div class = "center_button_hobby">
+            <button type="button" class="btn btn-success" id = "Back">Back</button>
+        </div>
+        <br>
+        <p>
+            <h2>I love to listen japanese music. I think the pronunciation of japanese words matches the melody very well.</h2>
+            <br>
+            <h2>Below is my best 5 favourite music:</h2>
+        </p>
+        <p align ="center"><iframe src="https://www.youtube.com/embed/tuN5zLhHjOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+        <p align ="center"><iframe src="https://www.youtube.com/embed/o1sUaVJUeB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+        <p align ="center"><iframe src="https://www.youtube.com/embed/EqVoCfSwfUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+        <p align ="center"><iframe src="https://www.youtube.com/embed/2bLKP6WzF7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+        <p align ="center"><iframe src="https://www.youtube.com/embed/RMFVuCURZIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+    </body>
+    <script>
+        document.querySelector('#back').addEventListener('click', function(){
+            let link = document.URL.substr(0,document.URL.lastIndexOf('/'));
+            link = link.concat("/index.html");
+            window.location.href = link;
+        });
+    </script>
+</html>

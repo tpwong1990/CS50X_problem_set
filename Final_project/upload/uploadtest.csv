@@ -1,0 +1,7 @@
+day,month,year,category,name,expense,remarks
+1,12,2022,Lidl,A,10,
+1,12,2022,Sainsbury,A,20,
+,12,2022,Electricity,B,30,
+,12,2022,Council tax,B,100,
+,,2022,Test,C,10,
+,11,2021,Test2,C,50,
